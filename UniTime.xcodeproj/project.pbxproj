@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93164D38148FD22300CA9C81 /* CustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93164D37148FD22200CA9C81 /* CustomLabel.m */; };
+		938EAB49149269D300A2767B /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 938EAB46149269D200A2767B /* RIButtonItem.m */; };
+		938EAB4A149269D300A2767B /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 938EAB48149269D300A2767B /* UIAlertView+Blocks.m */; };
+		9393144D148DFF6D0098A6AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393144C148DFF6D0098A6AF /* UIKit.framework */; };
+		9393144F148DFF6D0098A6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393144E148DFF6D0098A6AF /* Foundation.framework */; };
+		93931451148DFF6D0098A6AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93931450148DFF6D0098A6AF /* CoreGraphics.framework */; };
+		93931453148DFF6D0098A6AF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93931452148DFF6D0098A6AF /* CoreData.framework */; };
+		93931459148DFF6D0098A6AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93931457148DFF6D0098A6AF /* InfoPlist.strings */; };
+		9393145C148DFF6D0098A6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393145B148DFF6D0098A6AF /* main.m */; };
+		9393145F148DFF6D0098A6AF /* UniTimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393145E148DFF6D0098A6AF /* UniTimeAppDelegate.m */; };
+		93931462148DFF6D0098A6AF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93931460148DFF6D0098A6AF /* MainWindow.xib */; };
+		93931465148DFF6D0098A6AF /* UniTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93931463148DFF6D0098A6AF /* UniTime.xcdatamodeld */; };
+		93931478148DFF6E0098A6AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393144C148DFF6D0098A6AF /* UIKit.framework */; };
+		93931479148DFF6E0098A6AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393144E148DFF6D0098A6AF /* Foundation.framework */; };
+		9393147A148DFF6E0098A6AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93931450148DFF6D0098A6AF /* CoreGraphics.framework */; };
+		9393147B148DFF6E0098A6AF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93931452148DFF6D0098A6AF /* CoreData.framework */; };
+		93931483148DFF6E0098A6AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93931481148DFF6E0098A6AF /* InfoPlist.strings */; };
+		93931486148DFF6E0098A6AF /* UniTimeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 93931485148DFF6E0098A6AF /* UniTimeTests.h */; };
+		93931488148DFF6E0098A6AF /* UniTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93931487148DFF6E0098A6AF /* UniTimeTests.m */; };
+		93931492148E001F0098A6AF /* AttendUpdate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93931491148E001F0098A6AF /* AttendUpdate.xib */; };
+		93931494148E00930098A6AF /* AttendUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93931493148E00930098A6AF /* AttendUpdate.m */; };
+		93931497148E00B10098A6AF /* AttendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93931496148E00B10098A6AF /* AttendCell.m */; };
+		93931499148E00B90098A6AF /* AttendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93931498148E00B90098A6AF /* AttendCell.xib */; };
+		9393149D148E00C80098A6AF /* AttendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9393149B148E00C80098A6AF /* AttendController.m */; };
+		9393149E148E00C80098A6AF /* AttendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9393149C148E00C80098A6AF /* AttendController.xib */; };
+		939314A5148E03280098A6AF /* AddView.m in Sources */ = {isa = PBXBuildFile; fileRef = 939314A3148E03280098A6AF /* AddView.m */; };
+		939314A6148E03280098A6AF /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939314A4148E03280098A6AF /* AddView.xib */; };
+		939314AA148E03650098A6AF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 939314A8148E03650098A6AF /* RootViewController.m */; };
+		939314AB148E03650098A6AF /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939314A9148E03650098A6AF /* RootViewController.xib */; };
+		93AE801F14934163004307B5 /* closeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AE801E14934163004307B5 /* closeButton.png */; };
+		93BC1BD0148E11100022E10D /* bicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BCE148E11100022E10D /* bicon.png */; };
+		93BC1BD1148E11100022E10D /* sicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BCF148E11100022E10D /* sicon.png */; };
+		93BC1BD6148E11250022E10D /* CusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC1BD4148E11240022E10D /* CusCell.m */; };
+		93BC1BD7148E11250022E10D /* CusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BD5148E11250022E10D /* CusCell.xib */; };
+		93BC1BDB148E11350022E10D /* InputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC1BD9148E11350022E10D /* InputView.m */; };
+		93BC1BDC148E11350022E10D /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BDA148E11350022E10D /* InputView.xib */; };
+		93BC1BE0148E11540022E10D /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC1BDE148E11540022E10D /* MyTableViewController.m */; };
+		93BC1BE1148E11540022E10D /* MyTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BDF148E11540022E10D /* MyTableViewController.xib */; };
+		93BC1BE7148E116E0022E10D /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC1BE3148E116D0022E10D /* MyView.m */; };
+		93BC1BE8148E116E0022E10D /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BE4148E116E0022E10D /* MyView.xib */; };
+		93BC1BE9148E116E0022E10D /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BE5148E116E0022E10D /* next.png */; };
+		93BC1BEA148E116E0022E10D /* prev.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BE6148E116E0022E10D /* prev.png */; };
+		93BC1BED148E117F0022E10D /* TimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC1BEC148E117F0022E10D /* TimeView.m */; };
+		93BC1BF1148E13DD0022E10D /* UniTimeInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BC1BEF148E13DC0022E10D /* UniTimeInfoController.m */; };
+		93BC1BF2148E13DD0022E10D /* UniTimeInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BF0148E13DC0022E10D /* UniTimeInfoController.xib */; };
+		93BC1BF7148E15B90022E10D /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BF3148E15B70022E10D /* 11-clock.png */; };
+		93BC1BF8148E15B90022E10D /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BF4148E15B80022E10D /* 20-gear2.png */; };
+		93BC1BF9148E15B90022E10D /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BF5148E15B80022E10D /* 112-group.png */; };
+		93BC1BFA148E15B90022E10D /* 179-notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BC1BF6148E15B90022E10D /* 179-notepad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9393147C148DFF6E0098A6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9393143F148DFF6C0098A6AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93931447148DFF6D0098A6AF;
+			remoteInfo = UniTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93164D36148FD22100CA9C81 /* CustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLabel.h; sourceTree = "<group>"; };
+		93164D37148FD22200CA9C81 /* CustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLabel.m; sourceTree = "<group>"; };
+		938EAB45149269D100A2767B /* RIButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIButtonItem.h; sourceTree = "<group>"; };
+		938EAB46149269D200A2767B /* RIButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIButtonItem.m; sourceTree = "<group>"; };
+		938EAB47149269D200A2767B /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		938EAB48149269D300A2767B /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		93931448148DFF6D0098A6AF /* UniTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9393144C148DFF6D0098A6AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9393144E148DFF6D0098A6AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93931450148DFF6D0098A6AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93931452148DFF6D0098A6AF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		93931456148DFF6D0098A6AF /* UniTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniTime-Info.plist"; sourceTree = "<group>"; };
+		93931458148DFF6D0098A6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9393145A148DFF6D0098A6AF /* UniTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniTime-Prefix.pch"; sourceTree = "<group>"; };
+		9393145B148DFF6D0098A6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9393145D148DFF6D0098A6AF /* UniTimeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniTimeAppDelegate.h; sourceTree = "<group>"; };
+		9393145E148DFF6D0098A6AF /* UniTimeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniTimeAppDelegate.m; sourceTree = "<group>"; };
+		93931461148DFF6D0098A6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		93931464148DFF6D0098A6AF /* UniTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UniTime.xcdatamodel; sourceTree = "<group>"; };
+		93931477148DFF6E0098A6AF /* UniTimeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniTimeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93931480148DFF6E0098A6AF /* UniTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UniTimeTests-Info.plist"; sourceTree = "<group>"; };
+		93931482148DFF6E0098A6AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93931484148DFF6E0098A6AF /* UniTimeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UniTimeTests-Prefix.pch"; sourceTree = "<group>"; };
+		93931485148DFF6E0098A6AF /* UniTimeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UniTimeTests.h; sourceTree = "<group>"; };
+		93931487148DFF6E0098A6AF /* UniTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UniTimeTests.m; sourceTree = "<group>"; };
+		93931491148E001F0098A6AF /* AttendUpdate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendUpdate.xib; sourceTree = "<group>"; };
+		93931493148E00930098A6AF /* AttendUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendUpdate.m; sourceTree = "<group>"; };
+		93931495148E00A70098A6AF /* AttendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendCell.h; sourceTree = "<group>"; };
+		93931496148E00B10098A6AF /* AttendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendCell.m; sourceTree = "<group>"; };
+		93931498148E00B90098A6AF /* AttendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendCell.xib; sourceTree = "<group>"; };
+		9393149A148E00C70098A6AF /* AttendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendController.h; sourceTree = "<group>"; };
+		9393149B148E00C80098A6AF /* AttendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttendController.m; sourceTree = "<group>"; };
+		9393149C148E00C80098A6AF /* AttendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AttendController.xib; sourceTree = "<group>"; };
+		9393149F148E00DB0098A6AF /* AttendUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttendUpdate.h; sourceTree = "<group>"; };
+		939314A2148E03280098A6AF /* AddView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddView.h; sourceTree = "<group>"; };
+		939314A3148E03280098A6AF /* AddView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddView.m; sourceTree = "<group>"; };
+		939314A4148E03280098A6AF /* AddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
+		939314A7148E03650098A6AF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		939314A8148E03650098A6AF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		939314A9148E03650098A6AF /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		93AE801E14934163004307B5 /* closeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closeButton.png; sourceTree = "<group>"; };
+		93BC1BCE148E11100022E10D /* bicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bicon.png; sourceTree = "<group>"; };
+		93BC1BCF148E11100022E10D /* sicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sicon.png; sourceTree = "<group>"; };
+		93BC1BD3148E11240022E10D /* CusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusCell.h; sourceTree = "<group>"; };
+		93BC1BD4148E11240022E10D /* CusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusCell.m; sourceTree = "<group>"; };
+		93BC1BD5148E11250022E10D /* CusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CusCell.xib; sourceTree = "<group>"; };
+		93BC1BD8148E11340022E10D /* InputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputView.h; sourceTree = "<group>"; };
+		93BC1BD9148E11350022E10D /* InputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputView.m; sourceTree = "<group>"; };
+		93BC1BDA148E11350022E10D /* InputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
+		93BC1BDD148E11540022E10D /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		93BC1BDE148E11540022E10D /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		93BC1BDF148E11540022E10D /* MyTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewController.xib; sourceTree = "<group>"; };
+		93BC1BE2148E116D0022E10D /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		93BC1BE3148E116D0022E10D /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		93BC1BE4148E116E0022E10D /* MyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyView.xib; sourceTree = "<group>"; };
+		93BC1BE5148E116E0022E10D /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		93BC1BE6148E116E0022E10D /* prev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prev.png; sourceTree = "<group>"; };
+		93BC1BEB148E117E0022E10D /* TimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeView.h; sourceTree = "<group>"; };
+		93BC1BEC148E117F0022E10D /* TimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeView.m; sourceTree = "<group>"; };
+		93BC1BEE148E13DC0022E10D /* UniTimeInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniTimeInfoController.h; sourceTree = "<group>"; };
+		93BC1BEF148E13DC0022E10D /* UniTimeInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniTimeInfoController.m; sourceTree = "<group>"; };
+		93BC1BF0148E13DC0022E10D /* UniTimeInfoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UniTimeInfoController.xib; sourceTree = "<group>"; };
+		93BC1BF3148E15B70022E10D /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
+		93BC1BF4148E15B80022E10D /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		93BC1BF5148E15B80022E10D /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		93BC1BF6148E15B90022E10D /* 179-notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "179-notepad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93931445148DFF6D0098A6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393144D148DFF6D0098A6AF /* UIKit.framework in Frameworks */,
+				9393144F148DFF6D0098A6AF /* Foundation.framework in Frameworks */,
+				93931451148DFF6D0098A6AF /* CoreGraphics.framework in Frameworks */,
+				93931453148DFF6D0098A6AF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93931473148DFF6E0098A6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93931478148DFF6E0098A6AF /* UIKit.framework in Frameworks */,
+				93931479148DFF6E0098A6AF /* Foundation.framework in Frameworks */,
+				9393147A148DFF6E0098A6AF /* CoreGraphics.framework in Frameworks */,
+				9393147B148DFF6E0098A6AF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9393143D148DFF6C0098A6AF = {
+			isa = PBXGroup;
+			children = (
+				93931454148DFF6D0098A6AF /* UniTime */,
+				9393147E148DFF6E0098A6AF /* UniTimeTests */,
+				9393144B148DFF6D0098A6AF /* Frameworks */,
+				93931449148DFF6D0098A6AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93931449148DFF6D0098A6AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93931448148DFF6D0098A6AF /* UniTime.app */,
+				93931477148DFF6E0098A6AF /* UniTimeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9393144B148DFF6D0098A6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9393144C148DFF6D0098A6AF /* UIKit.framework */,
+				9393144E148DFF6D0098A6AF /* Foundation.framework */,
+				93931450148DFF6D0098A6AF /* CoreGraphics.framework */,
+				93931452148DFF6D0098A6AF /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93931454148DFF6D0098A6AF /* UniTime */ = {
+			isa = PBXGroup;
+			children = (
+				9393145D148DFF6D0098A6AF /* UniTimeAppDelegate.h */,
+				9393145E148DFF6D0098A6AF /* UniTimeAppDelegate.m */,
+				93931460148DFF6D0098A6AF /* MainWindow.xib */,
+				93BC1BEE148E13DC0022E10D /* UniTimeInfoController.h */,
+				93BC1BEF148E13DC0022E10D /* UniTimeInfoController.m */,
+				93BC1BF0148E13DC0022E10D /* UniTimeInfoController.xib */,
+				93931496148E00B10098A6AF /* AttendCell.m */,
+				93931495148E00A70098A6AF /* AttendCell.h */,
+				93931498148E00B90098A6AF /* AttendCell.xib */,
+				93AE801E14934163004307B5 /* closeButton.png */,
+				9393149A148E00C70098A6AF /* AttendController.h */,
+				9393149B148E00C80098A6AF /* AttendController.m */,
+				9393149C148E00C80098A6AF /* AttendController.xib */,
+				9393149F148E00DB0098A6AF /* AttendUpdate.h */,
+				93931491148E001F0098A6AF /* AttendUpdate.xib */,
+				93931493148E00930098A6AF /* AttendUpdate.m */,
+				939314A7148E03650098A6AF /* RootViewController.h */,
+				939314A8148E03650098A6AF /* RootViewController.m */,
+				939314A9148E03650098A6AF /* RootViewController.xib */,
+				939314A2148E03280098A6AF /* AddView.h */,
+				939314A3148E03280098A6AF /* AddView.m */,
+				939314A4148E03280098A6AF /* AddView.xib */,
+				93BC1BE2148E116D0022E10D /* MyView.h */,
+				93BC1BE3148E116D0022E10D /* MyView.m */,
+				93BC1BE4148E116E0022E10D /* MyView.xib */,
+				93164D36148FD22100CA9C81 /* CustomLabel.h */,
+				93164D37148FD22200CA9C81 /* CustomLabel.m */,
+				93BC1BE5148E116E0022E10D /* next.png */,
+				93BC1BE6148E116E0022E10D /* prev.png */,
+				93BC1BEB148E117E0022E10D /* TimeView.h */,
+				93BC1BEC148E117F0022E10D /* TimeView.m */,
+				93BC1BD8148E11340022E10D /* InputView.h */,
+				93BC1BD9148E11350022E10D /* InputView.m */,
+				93BC1BDA148E11350022E10D /* InputView.xib */,
+				938EAB45149269D100A2767B /* RIButtonItem.h */,
+				938EAB46149269D200A2767B /* RIButtonItem.m */,
+				938EAB47149269D200A2767B /* UIAlertView+Blocks.h */,
+				938EAB48149269D300A2767B /* UIAlertView+Blocks.m */,
+				93BC1BD3148E11240022E10D /* CusCell.h */,
+				93BC1BD4148E11240022E10D /* CusCell.m */,
+				93BC1BD5148E11250022E10D /* CusCell.xib */,
+				93BC1BDD148E11540022E10D /* MyTableViewController.h */,
+				93BC1BDE148E11540022E10D /* MyTableViewController.m */,
+				93BC1BDF148E11540022E10D /* MyTableViewController.xib */,
+				93BC1BF3148E15B70022E10D /* 11-clock.png */,
+				93BC1BF4148E15B80022E10D /* 20-gear2.png */,
+				93BC1BF5148E15B80022E10D /* 112-group.png */,
+				93BC1BF6148E15B90022E10D /* 179-notepad.png */,
+				93BC1BCE148E11100022E10D /* bicon.png */,
+				93BC1BCF148E11100022E10D /* sicon.png */,
+				93931463148DFF6D0098A6AF /* UniTime.xcdatamodeld */,
+				93931455148DFF6D0098A6AF /* Supporting Files */,
+			);
+			path = UniTime;
+			sourceTree = "<group>";
+		};
+		93931455148DFF6D0098A6AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93931456148DFF6D0098A6AF /* UniTime-Info.plist */,
+				93931457148DFF6D0098A6AF /* InfoPlist.strings */,
+				9393145A148DFF6D0098A6AF /* UniTime-Prefix.pch */,
+				9393145B148DFF6D0098A6AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9393147E148DFF6E0098A6AF /* UniTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				93931485148DFF6E0098A6AF /* UniTimeTests.h */,
+				93931487148DFF6E0098A6AF /* UniTimeTests.m */,
+				9393147F148DFF6E0098A6AF /* Supporting Files */,
+			);
+			path = UniTimeTests;
+			sourceTree = "<group>";
+		};
+		9393147F148DFF6E0098A6AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93931480148DFF6E0098A6AF /* UniTimeTests-Info.plist */,
+				93931481148DFF6E0098A6AF /* InfoPlist.strings */,
+				93931484148DFF6E0098A6AF /* UniTimeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93931447148DFF6D0098A6AF /* UniTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9393148B148DFF6E0098A6AF /* Build configuration list for PBXNativeTarget "UniTime" */;
+			buildPhases = (
+				93931444148DFF6D0098A6AF /* Sources */,
+				93931445148DFF6D0098A6AF /* Frameworks */,
+				93931446148DFF6D0098A6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniTime;
+			productName = UniTime;
+			productReference = 93931448148DFF6D0098A6AF /* UniTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93931476148DFF6E0098A6AF /* UniTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9393148E148DFF6E0098A6AF /* Build configuration list for PBXNativeTarget "UniTimeTests" */;
+			buildPhases = (
+				93931472148DFF6E0098A6AF /* Sources */,
+				93931473148DFF6E0098A6AF /* Frameworks */,
+				93931474148DFF6E0098A6AF /* Resources */,
+				93931475148DFF6E0098A6AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9393147D148DFF6E0098A6AF /* PBXTargetDependency */,
+			);
+			name = UniTimeTests;
+			productName = UniTimeTests;
+			productReference = 93931477148DFF6E0098A6AF /* UniTimeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9393143F148DFF6C0098A6AF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 93931442148DFF6C0098A6AF /* Build configuration list for PBXProject "UniTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9393143D148DFF6C0098A6AF;
+			productRefGroup = 93931449148DFF6D0098A6AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93931447148DFF6D0098A6AF /* UniTime */,
+				93931476148DFF6E0098A6AF /* UniTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93931446148DFF6D0098A6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93931459148DFF6D0098A6AF /* InfoPlist.strings in Resources */,
+				93931462148DFF6D0098A6AF /* MainWindow.xib in Resources */,
+				93931492148E001F0098A6AF /* AttendUpdate.xib in Resources */,
+				93931499148E00B90098A6AF /* AttendCell.xib in Resources */,
+				9393149E148E00C80098A6AF /* AttendController.xib in Resources */,
+				939314A6148E03280098A6AF /* AddView.xib in Resources */,
+				939314AB148E03650098A6AF /* RootViewController.xib in Resources */,
+				93BC1BD0148E11100022E10D /* bicon.png in Resources */,
+				93BC1BD1148E11100022E10D /* sicon.png in Resources */,
+				93BC1BD7148E11250022E10D /* CusCell.xib in Resources */,
+				93BC1BDC148E11350022E10D /* InputView.xib in Resources */,
+				93BC1BE1148E11540022E10D /* MyTableViewController.xib in Resources */,
+				93BC1BE8148E116E0022E10D /* MyView.xib in Resources */,
+				93BC1BE9148E116E0022E10D /* next.png in Resources */,
+				93BC1BEA148E116E0022E10D /* prev.png in Resources */,
+				93BC1BF2148E13DD0022E10D /* UniTimeInfoController.xib in Resources */,
+				93BC1BF7148E15B90022E10D /* 11-clock.png in Resources */,
+				93BC1BF8148E15B90022E10D /* 20-gear2.png in Resources */,
+				93BC1BF9148E15B90022E10D /* 112-group.png in Resources */,
+				93BC1BFA148E15B90022E10D /* 179-notepad.png in Resources */,
+				93AE801F14934163004307B5 /* closeButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93931474148DFF6E0098A6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93931483148DFF6E0098A6AF /* InfoPlist.strings in Resources */,
+				93931486148DFF6E0098A6AF /* UniTimeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93931475148DFF6E0098A6AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93931444148DFF6D0098A6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393145C148DFF6D0098A6AF /* main.m in Sources */,
+				9393145F148DFF6D0098A6AF /* UniTimeAppDelegate.m in Sources */,
+				93931465148DFF6D0098A6AF /* UniTime.xcdatamodeld in Sources */,
+				93931494148E00930098A6AF /* AttendUpdate.m in Sources */,
+				93931497148E00B10098A6AF /* AttendCell.m in Sources */,
+				9393149D148E00C80098A6AF /* AttendController.m in Sources */,
+				939314A5148E03280098A6AF /* AddView.m in Sources */,
+				939314AA148E03650098A6AF /* RootViewController.m in Sources */,
+				93BC1BD6148E11250022E10D /* CusCell.m in Sources */,
+				93BC1BDB148E11350022E10D /* InputView.m in Sources */,
+				93BC1BE0148E11540022E10D /* MyTableViewController.m in Sources */,
+				93BC1BE7148E116E0022E10D /* MyView.m in Sources */,
+				93BC1BED148E117F0022E10D /* TimeView.m in Sources */,
+				93BC1BF1148E13DD0022E10D /* UniTimeInfoController.m in Sources */,
+				93164D38148FD22300CA9C81 /* CustomLabel.m in Sources */,
+				938EAB49149269D300A2767B /* RIButtonItem.m in Sources */,
+				938EAB4A149269D300A2767B /* UIAlertView+Blocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93931472148DFF6E0098A6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93931488148DFF6E0098A6AF /* UniTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9393147D148DFF6E0098A6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93931447148DFF6D0098A6AF /* UniTime */;
+			targetProxy = 9393147C148DFF6E0098A6AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93931457148DFF6D0098A6AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93931458148DFF6D0098A6AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93931460148DFF6D0098A6AF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93931461148DFF6D0098A6AF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		93931481148DFF6E0098A6AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93931482148DFF6E0098A6AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93931489148DFF6E0098A6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: masaki kawaguchi (Q8684UA932)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: masaki kawaguchi (Q8684UA932)";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "1DAE529E-B0FE-4420-B567-BBBB7062D839";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1DAE529E-B0FE-4420-B567-BBBB7062D839";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9393148A148DFF6E0098A6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: masaki kawaguchi (Q8684UA932)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1DAE529E-B0FE-4420-B567-BBBB7062D839";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9393148C148DFF6E0098A6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniTime/UniTime-Prefix.pch";
+				INFOPLIST_FILE = "UniTime/UniTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9393148D148DFF6E0098A6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniTime/UniTime-Prefix.pch";
+				INFOPLIST_FILE = "UniTime/UniTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9393148F148DFF6E0098A6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UniTime.app/UniTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniTimeTests/UniTimeTests-Prefix.pch";
+				INFOPLIST_FILE = "UniTimeTests/UniTimeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		93931490148DFF6E0098A6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UniTime.app/UniTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UniTimeTests/UniTimeTests-Prefix.pch";
+				INFOPLIST_FILE = "UniTimeTests/UniTimeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93931442148DFF6C0098A6AF /* Build configuration list for PBXProject "UniTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93931489148DFF6E0098A6AF /* Debug */,
+				9393148A148DFF6E0098A6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9393148B148DFF6E0098A6AF /* Build configuration list for PBXNativeTarget "UniTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9393148C148DFF6E0098A6AF /* Debug */,
+				9393148D148DFF6E0098A6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9393148E148DFF6E0098A6AF /* Build configuration list for PBXNativeTarget "UniTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9393148F148DFF6E0098A6AF /* Debug */,
+				93931490148DFF6E0098A6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		93931463148DFF6D0098A6AF /* UniTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				93931464148DFF6D0098A6AF /* UniTime.xcdatamodel */,
+			);
+			currentVersion = 93931464148DFF6D0098A6AF /* UniTime.xcdatamodel */;
+			path = UniTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9393143F148DFF6C0098A6AF /* Project object */;
+}
