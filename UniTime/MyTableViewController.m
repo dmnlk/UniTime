@@ -63,7 +63,6 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     appDelegate = [(UniTimeAppDelegate *)[UIApplication sharedApplication] delegate];
     self.navigationItem.title = appDelegate.todayy;
-    NSLog(@"Testcode");
     [self showView];
     [showappButton release];
     self.tableView.separatorColor=[UIColor blackColor];
