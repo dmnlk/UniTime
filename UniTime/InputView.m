@@ -10,6 +10,7 @@
 #import "MyTableViewController.h"
 #import "UIAlertView+Blocks.h"
 #import "RIButtonItem.h"
+#import <QuartzCore/QuartzCore.h>
 @implementation InputView
 @synthesize timeLabel;
 @synthesize teacher;
@@ -75,7 +76,21 @@
     room.text= [[[[defaults objectForKey:@"Data"] objectForKey:appDelegate.todayy] objectForKey:[[NSNumber numberWithUnsignedInteger:time] stringValue]] objectForKey:@"room"];
     
     teacher.text= [[[[defaults objectForKey:@"Data"] objectForKey:appDelegate.todayy] objectForKey:[[NSNumber numberWithUnsignedInteger:time] stringValue]] objectForKey:@"teacher"];
+    //regist = [UIButton buttonWithType:111];
     
+    /*
+    UIButton *btn = [UIButton buttonWithType:111];
+    btn.frame = regist.frame;
+    [btn setTitle:[NSString stringWithFormat:@"登録"] forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    UIColor *color = btn.currentTitleColor;
+    btn.titleLabel.layer.shadowColor=[color CGColor];
+    btn.titleLabel.layer.shadowRadius =4.0f;
+    btn.titleLabel.layer.shadowOpacity =.9;
+    btn.titleLabel.layer.shadowOffset = CGSizeZero;
+    btn.titleLabel.layer.masksToBounds =NO;
+    btn.titleLabel.textColor =[UIColor whiteColor];
+     */
 }
 
 - (void)viewDidUnload
